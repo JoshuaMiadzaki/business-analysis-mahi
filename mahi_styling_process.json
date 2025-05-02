@@ -1,0 +1,234 @@
+{
+  "shapes": [
+    {
+      "id": "id_start",
+      "type": "rectangle",
+      "label": "Start",
+      "style": {
+        "fillColor": "green",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_enter_website",
+      "type": "rectangle",
+      "label": "Enter website",
+      "style": {
+        "fillColor": "lightblue",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_fill_form",
+      "type": "rectangle",
+      "label": "Fill out request\nform and questionnaire",
+      "style": {
+        "fillColor": "lightblue",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_choose_package",
+      "type": "rectangle",
+      "label": "Which package?",
+      "style": {
+        "fillColor": "orange",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_silver",
+      "type": "rectangle",
+      "label": "Silver\n\u2192 Mood board, 2D design",
+      "style": {
+        "fillColor": "lightgreen",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_bronze",
+      "type": "rectangle",
+      "label": "Bronze\n\u2192 Silver + Virtual session",
+      "style": {
+        "fillColor": "lightgreen",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_gold",
+      "type": "rectangle",
+      "label": "Gold\n\u2192 Silver + Physical visit",
+      "style": {
+        "fillColor": "lightgreen",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_followup",
+      "type": "rectangle",
+      "label": "Follow up\nwith customer",
+      "style": {
+        "fillColor": "lightyellow",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_feedback",
+      "type": "rectangle",
+      "label": "Collect feedback\n& satisfaction score",
+      "style": {
+        "fillColor": "lightyellow",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "id_end",
+      "type": "rectangle",
+      "label": "End",
+      "style": {
+        "fillColor": "green",
+        "borderColor": "#000000",
+        "fontSize": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from": "id_start",
+      "to": "id_enter_website",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_enter_website",
+      "to": "id_fill_form",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_fill_form",
+      "to": "id_choose_package",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_choose_package",
+      "to": "id_silver",
+      "label": "Silver",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_choose_package",
+      "to": "id_bronze",
+      "label": "Bronze",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_choose_package",
+      "to": "id_gold",
+      "label": "Gold",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_silver",
+      "to": "id_followup",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_bronze",
+      "to": "id_followup",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_gold",
+      "to": "id_followup",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_followup",
+      "to": "id_feedback",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    },
+    {
+      "from": "id_feedback",
+      "to": "id_end",
+      "label": "",
+      "style": {
+        "lineColor": "#000000"
+      }
+    }
+  ]
+}
